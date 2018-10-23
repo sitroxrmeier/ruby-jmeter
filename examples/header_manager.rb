@@ -20,7 +20,7 @@ test do
     end
   end
 
-  post name: 'with_headers', ur: '/',
+  post name: 'with_headers', url: '/',
     fill_in: {
       js: true
     } do
